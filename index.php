@@ -36,6 +36,7 @@ echo "$tr_open rm about.php  $tr_middle rm [fileName or dirName]  $tr_middle wil
 echo "$tr_open rm about.php -f  $tr_middle rm [fileName or dirName] -f $tr_middle you force to remove  $tr_close";
 echo "$tr_open rm --cached README  $tr_middle rm --cached [fileName or dirName] $tr_middle it will not delete the file from your working dir  $tr_close";
 echo "$tr_open mv file_from file_to  $tr_middle mv [originalFileName] [newName] $tr_middle to rename a file  $tr_close";
+echo "$tr_open log  $tr_middle  $tr_middle to see the history of commits  $tr_close";
 
 
 ?>
