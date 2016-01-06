@@ -32,6 +32,10 @@ echo "$tr_open clone https://github.com/vahe1507/gitpro.git   $tr_middle clone h
 echo "$tr_open clone https://github.com/vahe1507/gitpro.git myFolder  $tr_middle clone https://github.com/[userName]/[repoName].git  [a folder name to clone the project in] $tr_close";
 echo "$tr_open diff  $tr_middle only changes that are still unstaged $tr_close";
 echo "$tr_open diff  --staged  $tr_middle diff --cached  $tr_middle identical  $tr_close";
+echo "$tr_open rm about.php  $tr_middle rm [fileName or dirName]  $tr_middle will remove and delete the file after commiting and pushing  $tr_close";
+echo "$tr_open rm about.php -f  $tr_middle rm [fileName or dirName] -f $tr_middle you force to remove  $tr_close";
+echo "$tr_open rm --cached README  $tr_middle rm --cached [fileName or dirName] $tr_middle it will not delete the file from your working dir  $tr_close";
+echo "$tr_open mv file_from file_to  $tr_middle mv [originalFileName] [newName] $tr_middle to rename a file  $tr_close";
 
 
 ?>
