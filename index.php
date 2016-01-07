@@ -50,6 +50,7 @@ echo "$tr_open remote rm anotherName $tr_middle remote rm [remotetName]  $tr_mid
 echo "$tr_open fetch [url] $tr_middle fetch [shortName] [url] $tr_middle you can use shortName instead of url $tr_close";
 echo "$tr_open pull $tr_middle  $tr_middle fetch and merge $tr_close";
 echo "$tr_open push origin master $tr_middle push [remote-name] [branchName] $tr_middle you have to pull before you push $tr_close";
+echo "$tr_open git push --set-upstream origin secondBranch $tr_middle $tr_middle  $tr_close";
 
 
 
