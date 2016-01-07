@@ -37,6 +37,20 @@ echo "$tr_open rm about.php -f  $tr_middle rm [fileName or dirName] -f $tr_middl
 echo "$tr_open rm --cached README  $tr_middle rm --cached [fileName or dirName] $tr_middle it will not delete the file from your working dir  $tr_close";
 echo "$tr_open mv file_from file_to  $tr_middle mv [originalFileName] [newName] $tr_middle to rename a file  $tr_close";
 echo "$tr_open log  $tr_middle  $tr_middle to see the history of commits  $tr_close";
+echo "$tr_open log  -p $tr_middle log -p -[any number]  $tr_middle to see the history of commits and what was commited [optional how many] $tr_close";
+echo "$tr_open log  --stat $tr_middle log [options] $tr_middle to see the history of commits and which files where commited $tr_close";
+echo "$tr_open log -Sfunction_name $tr_middle  $tr_middle to see the history of commits and which files where commited that contains function_name $tr_close";
+echo "$tr_open commit --amend $tr_middle commit - m [msg] ; add [fileName]; git commit --amend   $tr_middle will add the fileName to the last commit , but before push  $tr_close";
+echo "$tr_open reset HEAD CONTRIBUTING.md $tr_middle reset HEAD [fileName]$tr_middle to unstage a file $tr_close";
+echo "$tr_open checkout -- CONTRIBUTING.md $tr_middle checkout -- [fileName]$tr_middle undo changes [dont use it ]$tr_close";
+echo "$tr_open remote $tr_middle remote -v$tr_middle $tr_close";
+echo "$tr_open remote add newRe https://github.com/vahe1507/newtut.git $tr_middle remote add [shortName] [url] $tr_middle now you can use shortName instead of url $tr_close";
+echo "$tr_open remote rename newRe anotherName $tr_middle remote rename [oldtName] [newName] $tr_middle rename  shortName  $tr_close";
+echo "$tr_open remote rm anotherName $tr_middle remote rm [remotetName]  $tr_middle remove    $tr_close";
+echo "$tr_open fetch [url] $tr_middle fetch [shortName] [url] $tr_middle you can use shortName instead of url $tr_close";
+echo "$tr_open pull $tr_middle  $tr_middle fetch and merge $tr_close";
+echo "$tr_open push origin master $tr_middle push [remote-name] [branchName] $tr_middle you have to pull before you push $tr_close";
+
 
 
 ?>
