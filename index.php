@@ -51,6 +51,7 @@ echo "$tr_open fetch [url] $tr_middle fetch [shortName] [url] $tr_middle you can
 echo "$tr_open pull $tr_middle  $tr_middle fetch and merge $tr_close";
 echo "$tr_open push origin master $tr_middle push [remote-name] [branchName] $tr_middle you have to pull before you push $tr_close";
 echo "$tr_open git push --set-upstream origin secondBranch $tr_middle $tr_middle  $tr_close";
+echo "$tr_open checkout -b iss53 $tr_middle checkout -b [branchName]$tr_middle creates a branch and checkout to it  $tr_close";
 
 
 
