@@ -50,6 +50,13 @@ echo "$tr_open remote rm anotherName $tr_middle remote rm [remotetName]  $tr_mid
 echo "$tr_open fetch [url] $tr_middle fetch [shortName] [url] $tr_middle you can use shortName instead of url $tr_close";
 echo "$tr_open pull $tr_middle  $tr_middle fetch and merge $tr_close";
 echo "$tr_open push origin master $tr_middle push [remote-name] [branchName] $tr_middle you have to pull before you push $tr_close";
+<<<<<<< HEAD
+echo "$tr_open branch testing $tr_middle branch [branchName] $tr_middle create a new branch $tr_close";
+echo "$tr_open checkout testing $tr_middle checkout [branchName] $tr_middle switch to another branch, moves the HEAD to [banchName] $tr_close";
+=======
+echo "$tr_open git push --set-upstream origin secondBranch $tr_middle $tr_middle  $tr_close";
+echo "$tr_open checkout -b iss53 $tr_middle checkout -b [branchName]$tr_middle creates a branch and checkout to it  $tr_close";
+>>>>>>> master
 
 
 
