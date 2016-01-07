@@ -57,6 +57,10 @@ echo "$tr_open checkout -b iss53 $tr_middle checkout -b [branchName]$tr_middle c
 echo "$tr_open merge master $tr_middle $tr_middle to update your branch from master $tr_close";
 echo "$tr_open merge testing $tr_middle merge [branchName] $tr_middle to add your branch to master $tr_close";
 echo "$tr_open branch -d testing $tr_middle branch -d [branchName] $tr_middle to delete your branch $tr_close";
+echo "$tr_open branch -D testing $tr_middle branch -D [branchName] $tr_middle Forcing to delete your branch $tr_close";
+echo "$tr_open branch $tr_middle branch -v $tr_middle list all branches $tr_close";
+echo "$tr_open branch --merged $tr_middle branch --no-merged $tr_middle  $tr_close";
+
 
 
 
