@@ -61,6 +61,40 @@ echo "$tr_open branch -D testing $tr_middle branch -D [branchName] $tr_middle Fo
 echo "$tr_open branch $tr_middle branch -v $tr_middle list all branches $tr_close";
 echo "$tr_open branch --merged $tr_middle branch --no-merged $tr_middle  $tr_close";
 echo "$tr_open fetch origin $tr_middle $tr_middle to update your local from remote  $tr_close";
+echo "$tr_open branch -vv $tr_middle $tr_middle to see tracked branches  $tr_close";
+echo "$tr_open push origin --delete newBranch $tr_middle push origin --delete [branchName]$tr_middle delete remote branch  $tr_close";
+echo "$tr_open rebase master $tr_middle $tr_middle  $tr_close";
+
+echo "$tr_open fetch origin ; merge origin/master ; push origin master $tr_middle $tr_middle  $tr_close";
+echo "$tr_open git commands $tr_middle $tr_middle  $tr_close";
+echo "$tr_open config $tr_middle $tr_middle  $tr_close";
+echo "$tr_open help $tr_middle $tr_middle  $tr_close";
+echo "$tr_open init $tr_middle $tr_middle  $tr_close";
+echo "$tr_open clone $tr_middle $tr_middle  $tr_close";
+echo "$tr_open add $tr_middle $tr_middle  $tr_close";
+echo "$tr_open status $tr_middle $tr_middle  $tr_close";
+echo "$tr_open diff $tr_middle $tr_middle  $tr_close";
+echo "$tr_open commit  $tr_middle $tr_middle  $tr_close";
+echo "$tr_open reset $tr_middle $tr_middle  $tr_close";
+echo "$tr_open rm $tr_middle $tr_middle  $tr_close";
+echo "$tr_open mv $tr_middle $tr_middle  $tr_close";
+echo "$tr_open clean $tr_middle $tr_middle  $tr_close";
+echo "$tr_open branch $tr_middle $tr_middle  $tr_close";
+echo "$tr_open checkout $tr_middle $tr_middle  $tr_close";
+echo "$tr_open merge $tr_middle $tr_middle  $tr_close";
+echo "$tr_open mergetool $tr_middle $tr_middle  $tr_close";
+echo "$tr_open log $tr_middle $tr_middle  $tr_close";
+echo "$tr_open stash $tr_middle $tr_middle  $tr_close";
+echo "$tr_open fetch $tr_middle $tr_middle  $tr_close";
+echo "$tr_open pull $tr_middle $tr_middle  $tr_close";
+echo "$tr_open push $tr_middle $tr_middle  $tr_close";
+echo "$tr_open remote $tr_middle $tr_middle  $tr_close";
+echo "$tr_open cherry-pick $tr_middle $tr_middle  $tr_close";
+echo "$tr_open rebase $tr_middle $tr_middle  $tr_close";
+
+
+
+
 
 
 
