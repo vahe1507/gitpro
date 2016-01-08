@@ -60,6 +60,8 @@ echo "$tr_open branch -d testing $tr_middle branch -d [branchName] $tr_middle to
 echo "$tr_open branch -D testing $tr_middle branch -D [branchName] $tr_middle Forcing to delete your branch $tr_close";
 echo "$tr_open branch $tr_middle branch -v $tr_middle list all branches $tr_close";
 echo "$tr_open branch --merged $tr_middle branch --no-merged $tr_middle  $tr_close";
+echo "$tr_open fetch origin $tr_middle $tr_middle to update your local from remote  $tr_close";
+
 
 
 
